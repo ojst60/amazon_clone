@@ -1,0 +1,20 @@
+.root-container {
+  width: 450px;
+  margin: 20px auto;
+  gap: 15px;
+  background-color: lightblue;
+  height: 500px;
+  border: 1px solid #ddd;
+
+  .signup-div {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+
+    label {
+      display: flex;
+      margin: 2px auto;
+      flex-direction: column;
+    }
+  }
+}
